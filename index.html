@@ -17,26 +17,26 @@
     
     <header class="header">
         <div class="container">
+            <a href="./index.html" class="logo">Web <span class="logo-text link">Studio</span></a>
             <nav class="site-nav">
-                <a href="./index.html" class="logo">Web <span class="logo-text">Studio</span></a>
                 <ul class="list">
-                    <li>
+                    <li class="item">
                         <a href="./index.html" class="link">Студия</a>
                     </li>
-                    <li>
+                    <li class="item">
                         <a href="./portfolio.html" class="link">Портфолио</a>
                     </li>
-                    <li>
+                    <li class="item">
                         <a href="#contacts" class="link">Контакты</a>
                     </li>
                 </ul>
             </nav>
-            <ul class="list">
-                <li>
-                    <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
+            <ul class="connection list">
+                <li class="item">
+                    <a href="mailto:info@devstudio.com" class="contact link">info@devstudio.com</a>
                 </li>
-                <li>
-                    <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
+                <li class="item">
+                    <a href="tel:+380961111111" class="contact link">+38 096 111 11 11</a>
                 </li>
             </ul>
         </div>
@@ -56,19 +56,19 @@
         <section class="section feature">
             <div class="container">
                 <ul class="list">
-                    <li>
+                    <li class="item">
                         <h3 class="subtitle">Внимание к деталям</h3>
                         <p class="text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                     </li>
-                    <li>
+                    <li class="item">
                         <h3 class="subtitle">Пунктуальность</h3>
                         <p class="text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                     </li>
-                    <li>
+                    <li class="item">
                         <h3 class="subtitle">Планирование</h3>
                         <p class="text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                     </li>
-                    <li>
+                    <li class="item">
                         <h3 class="subtitle">Современные технологии</h3>
                         <p class="text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                     </li>
@@ -77,18 +77,24 @@
         </section>
 
         <!--Чим займаємось-->
-        <section class="section activiti">
+        <section class="section activity">
             <div class="container">
                 <h2 class="title">Чем мы занимаемся</h2>
                 <ul class="list">
-                    <li>
+                    <li class="item">
+                        <a href="" class="link">
                         <img class="image" src="./images/img1.jpg" alt="клавиатура" width="370">
+                        </a>
                     </li>
-                    <li>
+                    <li class="item">
+                        <a href="#" class="link">
                         <img class="image" src="./images/img2.jpg" alt="телефон" width="370">
+                        </a>
                     </li>
-                    <li>
+                    <li class="item">
+                        <a href="#" class="link">
                         <img class="image" src="./images/img3.jpg" alt="планшет" width="370">
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -98,32 +104,40 @@
             <div class="container">
                 <h2 class="title">Наша команда</h2>
                 <ul class="list">
-                    <li>
+                    <li class="card">
                         <a href="#" class="link">
-                            <img class="image" src="./images/igorini.jpg" alt="igor" width="270">
-                            <h3 class="subtitle">Игорь Демьяненко</h3>
-                            <p lang="en" class="text">Product Designer</p>
+                            <img class="image" src="./images/igorini.jpg" alt="Игорь Демьяненко" width="270">
+                            <div class="card-desc">
+                                <h3 class="subtitle">Игорь Демьяненко</h3>
+                                <p lang="en" class="text">Product Designer</p>
+                            </div>
                         </a>
                     </li>
-                    <li>
+                    <li class="card">
                         <a href="#" class="link">
-                            <img class="image" src="./images/olha.jpg" alt="olha" width="270">
-                            <h3 class="subtitle">Ольга Репина</h3>
-                            <p lang="en" class="text">Frontend Developer</p>
+                            <img class="image" src="./images/olha.jpg" alt="Ольга Репина" width="270">
+                           <div class="card-desc">
+                                <h3 class="subtitle">Ольга Репина</h3>
+                                <p lang="en" class="text">Frontend Developer</p>
+                        </div>
                         </a>
                     </li>
-                    <li>
+                    <li class="card">
                         <a href="#" class="link">
-                            <img class="image" src="./images/mikola.jpg" alt="mikola" width="270">
-                            <h3 class="subtitle">Николай Тарасов</h3>
-                            <p lang="en" class="text">Marketing</p>
+                            <img class="image" src="./images/mikola.jpg" alt="Николай Тарасов" width="270">
+                            <div class="card-desc">
+                                <h3 class="subtitle">Николай Тарасов</h3>
+                                <p lang="en" class="text">Marketing</p>
+                            </div>
                         </a>
                     </li>
-                    <li>
+                    <li class="card">
                         <a href="#" class="link">
-                            <img class="image" src="./images/mihail.jpg" alt="mihail" width="270">
-                            <h3 class="subtitle">Михаил Ермаков</h3>
-                            <p class="text">UI Designer</p>
+                            <img class="image" src="./images/mihail.jpg" alt="Михаил Ермаков" width="270">
+                            <div class="card-desc">
+                                <h3 class="subtitle">Михаил Ермаков</h3>
+                                <p class="text">UI Designer</p>
+                            </div>
                         </a>
                     </li>
                 </ul>
@@ -134,15 +148,18 @@
     <!--Контакти-->
     <footer class="footer">
         <div class="container">
-            <a href="./index.html" class="logo">Web <span class="logo-text">Studio</span></a>
+        
             <address class="adress">
-                <p class="adress-city">г. Киев, пр-т Леси Украинки, 26</p>
+                <a href="./index.html" class="logo">Web <span class="logo-text">Studio</span></a>
                 <ul class="list">
-                    <li>
-                        <a href="mailto:info@example.com" class="contact">info@example.com</a>
+                    <li class="item">
+                        <p class="text">г. Киев, пр-т Леси Украинки, 26</p>
                     </li>
-                    <li>
-                        <a href="tell:+380991111111" class="contact">+38 099 111 11 11</a>
+                    <li class="item">
+                        <a href="mailto:info@example.com" class="contact link">info@example.com</a>
+                    </li>
+                    <li class="item">
+                        <a href="tell:+380991111111" class="contact link">+38 099 111 11 11</a>
                     </li>
                 </ul>
             </address>
