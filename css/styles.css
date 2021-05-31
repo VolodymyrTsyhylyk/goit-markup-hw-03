@@ -54,7 +54,6 @@ body {
   border: none;
   padding: 10px 32px;
   display: inline-block;
-  min-width: 200px;
 }
 .title .subtitle {
   font-size: 36px;
@@ -159,6 +158,9 @@ body {
 
 .hero .title {
   margin-bottom: 30px;
+  width: 696px;
+  margin-left: auto;
+  margin-right: auto;
 
   color: var(--white-text-color);
   font-weight: 900;
@@ -216,6 +218,11 @@ body {
 
 .activity .title {
   margin-bottom: 50px;
+  margin-top: 0px;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.171;
+  letter-spacing: 0.03em;
 }
 
 .activity .list {
@@ -238,6 +245,11 @@ body {
 
 .team .title {
   margin-bottom: 50px;
+  margin-top: 0px;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.171;
+  letter-spacing: 0.03em;
 }
 
 .team .list {
@@ -263,7 +275,7 @@ body {
 
 .team .subtitle {
   margin-bottom: 10px;
-
+  margin-top: 0px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -331,7 +343,8 @@ body {
   padding-right: 24px;
 }
 .portfolio .title {
-  padding-bottom: 4px;
+  margin-bottom: 4px;
+  margin-top: 0px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -353,6 +366,9 @@ body {
 }
 .adress {
   font-style: normal;
+}
+.adress .text {
+  color: var(--white-text-color);
 }
 .footer .logo {
   margin-bottom: 20px;
